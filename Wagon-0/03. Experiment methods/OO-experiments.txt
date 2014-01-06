@@ -1,2 +1,21 @@
 // Copy some experiments you made on ruby String and Fixnum objects below !
 // You choose pick 3 methods for String and 3 methods for Fixnum
+
+irb(main):017:0> "Bonjour".encoding
+=> #<Encoding:UTF-8>
+
+irb(main):020:0> "Bonjour".reverse
+=> "ruojnoB"
+
+irb(main):021:0> "Bonjour".swapcase
+=> "bONJOUR"
+
+irb(main):026:0> 100.even?
+=> true
+
+irb(main):028:0> -100.abs
+=> 100
+
+irb(main):030:0> 80 > 100
+=> false
+ 
