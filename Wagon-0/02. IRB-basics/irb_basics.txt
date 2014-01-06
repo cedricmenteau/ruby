@@ -1,1 +1,6 @@
 // Copy your irb shell history below !
+
+my_name = “Cédric”
+def say_hello(my_name)
+   puts “Welcome #{my_name}!”
+end
