@@ -7,4 +7,4 @@ end
 
 
 # Testing your code
-puts age_in_days(6, 11, 1985)
+puts age_in_days(17, 11, 1987)
