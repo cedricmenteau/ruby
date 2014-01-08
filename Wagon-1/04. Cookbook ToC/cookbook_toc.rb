@@ -9,3 +9,9 @@ chapters = [
            ]
            
 # You program goes here !
+
+width = chapters.max { |x, y| (x + y).lenght}
+puts title.center(width)
+for i in 0..4
+	puts "chapter #{i + 1} : #{chapters[1][0]}".ljust(55) + "page #{chapters[1][1]}".rjust(15)
+end
