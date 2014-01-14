@@ -3,7 +3,7 @@ def sum(min, max)
   while min <= max
   	answer += min
   	min += 1
-  end
+ end
   answer
 end
 

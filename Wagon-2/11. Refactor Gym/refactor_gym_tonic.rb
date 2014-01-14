@@ -16,3 +16,13 @@ def hop_hop_hop(number_of_exercises)
 end
 
 hop_hop_hop(6)
+
+# Very clean code to make some swoopish gym...
+def hop_hop(number_of_exercises)
+  (1..number_of_exercises).each do |x|
+    x.times {print "Hop... "}
+    print "Encore une fois..\n"
+  end
+end
+
+hop_hop(6)
